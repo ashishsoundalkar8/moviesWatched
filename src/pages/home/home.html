@@ -1,0 +1,78 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-title>
+      Movies Watched
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding color="secondary">
+  <ion-row>
+    <ion-col text-center>
+      <ion-card>
+        <ion-card-header>
+          <p>Movies Watched</p>
+          <h1>82</h1>
+        </ion-card-header>
+      </ion-card>
+    </ion-col>
+    <ion-col text-center>
+      <ion-card>
+        <ion-card-header>
+          <p>In 2018</p>
+          <h1>12</h1>
+        </ion-card-header>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+  <ion-item>
+      <ion-input type="text" placeholder="Search Movies" [(ngModel)]="movieName"></ion-input>
+      <ion-icon name="search" item-right primary></ion-icon>
+    </ion-item>
+    <button ion-button block (click)="register(user)">Search</button>
+  <ion-card class="movie-card">
+    <ion-row>
+      <ion-col col-3>
+        <img src="https://www.easons.com/globalassets/dvds/blackpanhter_dvd.jpg" />
+      </ion-col>
+      <ion-col col-9>
+        <ion-card-header>
+          <h1>Dhoom 3</h1>
+        </ion-card-header>
+        <ion-card-content>
+          <h4>2018</h4>
+        </ion-card-content>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  <ion-card class="movie-card">
+    <ion-row>
+      <ion-col col-3>
+        <img src="https://www.easons.com/globalassets/dvds/blackpanhter_dvd.jpg" />
+      </ion-col>
+      <ion-col col-9>
+        <ion-card-header>
+          <h1>Dhoom 3</h1>
+        </ion-card-header>
+        <ion-card-content>
+          <h4>2018</h4>
+        </ion-card-content>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  <ion-card class="movie-card">
+    <ion-row>
+      <ion-col col-3>
+        <img src="https://www.easons.com/globalassets/dvds/blackpanhter_dvd.jpg" />
+      </ion-col>
+      <ion-col col-9>
+        <ion-card-header>
+          <h1>Dhoom 3</h1>
+        </ion-card-header>
+        <ion-card-content>
+          <h4>2018</h4>
+        </ion-card-content>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+</ion-content>
